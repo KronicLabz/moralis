@@ -14,11 +14,11 @@ const App = () => {
 
   return (
     <>
-    {isAuthenticated ? (
-      <div className="page">
-        <div className="sideBar">
-          <Sidebar />
-          <div
+      {isAuthenticated ? (
+        <div className="page">
+          <div className="sideBar">
+            <Sidebar />
+            <div
               className="logout"
               onClick={() => {
                 Moralis.User.logOut().then(() => {
@@ -28,24 +28,23 @@ const App = () => {
             >
               Logout
             </div>
+          </div>
+          <div className="mainWindow">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/profile" element={<Profile />} />
+              <Route path="/settings" element={<Settings />} />
+            </Routes>
+          </div>
+          <div className="rightBar">
+            <Rightbar />
+          </div>
         </div>
-        <div className="mainWindow">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/settings" element={<Settings />} />
-          </Routes>
-        </div>
-        <div className="rightBar">
-          <Rightbar />
-        </div>
-      </div>
       ) : (
         <div className="loginPage">
           <Icon fill="#ffffff" size={40} svg="twitter" />
           <ConnectButton />
         </div>
-
       )}
     </>
   );

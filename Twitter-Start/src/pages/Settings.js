@@ -33,12 +33,12 @@ const Settings = () => {
 
     const fetchNFTs = async () => {
       const options = {
-        chain: "mumbai",
+        chain: "goerli",
         address: account
       }
 
-      const mumbaiNFTs = await Web3Api.account.getNFTs(options);
-      const images = mumbaiNFTs.result.map(
+      const goerliNFTs = await Web3Api.account.getNFTs(options);
+      const images = goerliNFTs.result.map(
         (e) => resolveLink(JSON.parse(e.metadata)?.image)
       );
       setPfps(images);

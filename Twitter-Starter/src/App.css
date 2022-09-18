@@ -1,12 +1,12 @@
 .page {
-  display: flex;
+  display: flex-start;
   justify-content: space-between;
 }
 
 .sideBar {
   position: sticky;
   top: 0px;
-  width: calc((100vw - 800px)*0.45);
+  width: calc((100vw - 800px) * 0.45);
   border-right: 1px solid rgb(63, 63, 63);
   color: white;
   height: 100vh;
@@ -15,7 +15,7 @@
 .rightBar {
   position: sticky;
   top: 0px;
-  width: calc((100vw - 800px)*0.55);
+  width: calc((100vw - 800px) * 0.55);
   border-left: 1px solid rgb(63, 63, 63);
   color: white;
   height: 100vh;
@@ -46,7 +46,7 @@
 }
 
 .rdMZu {
-    min-height: 90px !important;
+  min-height: 90px !important;
 }
 
 a:-webkit-any-link {
@@ -55,15 +55,15 @@ a:-webkit-any-link {
   height: 0px !important;
 }
 
-.logout{
-  display: flex;
+.logout {
+  display: flex-start;
   justify-content: end;
   margin-right: 100px;
   font-weight: bold;
 }
 
 .logout:hover {
-  color:gray;
+  color: gray;
   font-weight: bold;
   cursor: pointer;
 }
@@ -71,7 +71,7 @@ a:-webkit-any-link {
 .loginPage {
   height: 100vh;
   align-items: center;
-  display: flex;
+  display: flex-start;
   justify-content: center;
   flex-direction: column;
   gap: 20px;

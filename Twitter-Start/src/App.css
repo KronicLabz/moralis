@@ -1,12 +1,61 @@
 .page {
   display: flex;
   justify-content: space-between;
+  background: linear-gradient(
+      140.51deg,
+      #5bbea4 -6.5%,
+      #272b49 -6.5%,
+      #272d49 -6.5%,
+      #5dc0a8 -6.5%,
+      rgba(115, 78, 145, 0.3) 48.85%,
+      #c14d70 114.2%,
+      rgba(76, 114, 152, 0) 114.2%
+    ),
+    linear-gradient(
+      140.51deg,
+      #00ffbc -6.5%,
+      #272b49 -6.5%,
+      #272d49 -6.5%,
+      #5dc0a8 -6.5%,
+      #00ffc1 -6.5%,
+      #6a9d94 46.27%,
+      #7d8c8d 71.62%,
+      #ab6279 100.23%,
+      #c14d70 114.2%,
+      rgba(76, 114, 152, 0) 114.2%
+    ),
+    linear-gradient(
+      140.51deg,
+      #00ffbc -6.5%,
+      #272b49 -6.5%,
+      #272d49 -6.5%,
+      #5dc0a8 -6.5%,
+      #00ffc1 -6.5%,
+      #6a9d94 46.27%,
+      #7d8c8d 71.62%,
+      #ab6279 100.23%,
+      #c14d70 114.2%,
+      rgba(76, 114, 152, 0) 114.2%
+    ),
+    linear-gradient(
+      140.51deg,
+      #00ffbc -6.5%,
+      #272b49 -6.5%,
+      #272d49 -6.5%,
+      #5dc0a8 -6.5%,
+      #00ffc1 -6.5%,
+      #6a9d94 46.27%,
+      #7d8c8d 71.62%,
+      #ab6279 100.23%,
+      #c14d70 114.2%,
+      rgba(76, 114, 152, 0) 114.2%
+    );
 }
 
 .sideBar {
   position: sticky;
   top: 0px;
-  width: calc((100vw - 800px)*0.45);
+  width: calc((100vw - 800px) * 0.45);
   border-right: 1px solid rgb(63, 63, 63);
   color: white;
   height: 100vh;
@@ -15,7 +64,7 @@
 .rightBar {
   position: sticky;
   top: 0px;
-  width: calc((100vw - 800px)*0.55);
+  width: calc((100vw - 800px) * 0.55);
   border-left: 1px solid rgb(63, 63, 63);
   color: white;
   height: 100vh;
@@ -46,7 +95,7 @@
 }
 
 .rdMZu {
-    min-height: 90px !important;
+  min-height: 90px !important;
 }
 
 a:-webkit-any-link {
@@ -55,7 +104,7 @@ a:-webkit-any-link {
   height: 0px !important;
 }
 
-.logout{
+.logout {
   display: flex;
   justify-content: end;
   margin-right: 100px;
@@ -63,7 +112,7 @@ a:-webkit-any-link {
 }
 
 .logout:hover {
-  color:gray;
+  color: gray;
   font-weight: bold;
   cursor: pointer;
 }
