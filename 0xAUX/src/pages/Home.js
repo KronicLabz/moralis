@@ -30,15 +30,16 @@ const Home = () => {
     }
 
     let options = {
-      contractAddress: "0x8E452D8573e2B1e8341D3f4aCC07939247cf99c6",
+      contractAddress: "0xA8CaDB39C65CfB8E8c9e327A00038d5daD33642B",
       functionName: "addTweet",
       abi: [
         {
           inputs: [
             {
               internalType: "string",
-              name: "tweetTxt",
+              name: "contentUri",
               type: "string",
+              indexed: false,
             },
             {
               internalType: "string",

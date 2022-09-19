@@ -7,9 +7,7 @@
 
 .pfpContainer {
   max-width: 100%;
-  display: flex;
-  justify-content: start;
-  flex-direction: column;
+  display: fixed;
   border-bottom: 1px solid rgb(63, 63, 63);
 }
 

@@ -1,43 +1,40 @@
 import React from "react";
 import "./Rightbar.css";
-import spaceshooter from "../images/spaceshooter.jpeg";
-import netflix from "../images/netflix.jpeg";
-import academy from "../images/academy.png";
+import kronickatzopensea from "../images/kronickatzopensea.png";
+import kroniclabz from "../images/kroniclabz.jpg";
+import BAPC from "../images/BAPC.jpeg";
 import youtube from "../images/youtube.png";
 import js from "../images/js.png";
 import { Input } from "web3uikit";
+import DOODEZ from "../images/doodez.png";
+import DYLUMINATI from "../images/DYLUMINATI.png";
 
 const Rightbar = () => {
   const trends = [
     {
-      img: spaceshooter,
-      text: "Learn how to build a Web3 FPS game using unity...",
-      link: "https://moralis.io/moralis-projects-learn-to-build-a-web3-space-fps-game/",
+      img: kronickatzopensea,
+      text: "KronicKatz floor sweep contests is underway...",
+      link: "https://opensea.io/collection/kronickatz-nft",
     },
     {
-      img: netflix,
-      text: "The fisrt Moralis Project! Let's Netflix and chill...",
-      link: "https://moralis.io/moralis-projects-learn-to-build-a-web3-netflix-clone/",
+      img: DYLUMINATI,
+      text: "Dyl to release new Forever Contract...",
+      link: "https://itslit.org",
     },
     {
-      img: academy,
-      text: "Master DeFi in 2022. Start  at the Moralis Academy...",
-      link: "https://academy.moralis.io/courses/defi-101",
+      img: kroniclabz,
+      text: "KronicLabz to release community built NFT marketplace...",
+      link: "https://kroniclabz.com/metatectoken/",
     },
     {
-      img: js,
-      text: "Become a Web3 Developer with just simple JS...",
-      link: "https://academy.moralis.io/all-courses",
+      img: BAPC,
+      text: "Building a Roadmap for the Next NFT Revolution, Led by BAPC...",
+      link: "https://medium.com/@boredapepixelclubnft/building-a-roadmap-for-the-next-nft-revolution-led-by-bapc-16bd31c51fdb",
     },
     {
-      img: youtube,
-      text: "Best youtube channel to learn about Web3...",
-      link: "https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw",
-    },
-    {
-      img: academy,
-      text: "Master DeFi in 2022. Start  at the Moralis Academy...",
-      link: "https://academy.moralis.io/courses/defi-101",
+      img: DOODEZ,
+      text: "CryptoDoodez, first ever pfp project that ...",
+      link: "https://cryptodoodez.crd.co/",
     },
     {
       img: js,
